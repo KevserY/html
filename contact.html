@@ -4,18 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kevser YAZICI - Contact</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <center>
-    
     <div class="header">
         <div class="name"><h2>Kevser YAZICI - <i>Software Development Engineer in Test</i></h2></div>
         <div class="menu"><a href="index.html"> HOMEPAGE </a>|<a href="resume.html" target="_blank"> RESUME </a>|<a href="contact.html"target="_blank"> CONTACT</a></div>       
     </div>
     <br><br><br><br>
-    <div class="contend"></div>
-
-
+    <div class="contend">
+        <form action="saveDB.php">
+            <div class="form-row">
+                <div><label for="firstname">Firstname</label></div>
+                <input type="text" name="Firstname" id="">
+            </div>
+            <div class="form-row">
+                <div><label for="lastname">Lastname</label></div>
+                <input type="text" name="lastname" id="">
+            </div>
+            <div class="form-row">
+                <div><label for="email">E-mail</label></div>
+                <input type="email" name="email" id="">
+            </div>
+            <div class="form-row">
+                <div><label for="phone">Tel</label></div>
+                <input type="tel" name="phone" id="">
+            </div>
+            <div class="form-row">
+                <div><label for="message">Message</label></div>
+                <textarea name="message" id="" cols="30" rows="10"></textarea>
+            </div>
+            <div><button type="submit">SEND</button></div>
+        </form>
+        <!--HTML dosyalarına yorum eklemek için Shift+Alt+A yapıyoruz-->
+        <!-- "for" ve "name" aynı olmalı.Girilen verilerin, 
+        backend de kayıt alınabilmesi için 2 isim birbirinin aynısı olmalı -->
+        
+    </div>
 
     <br><br><br><br>    
     <div class="footer"> 
@@ -28,10 +53,7 @@
 
         <div class="copyright"> Tüm Hakları Saklıdır © 2023</div>    
     </div>
-    <!--Auto Save kapalı ise CTRL+S tuşlarına basında kaydeder-->
+    <!--Auto Save kapalı ise CTRL+S tuşlarıyla kaydedilir.-->
     
-    
-    
-    </center>
 </body>
 </html>
