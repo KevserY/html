@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kevser YAZICI - Contact</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+
+
+</head>
+<body>
+    <div class="header">
+        <div class="name"><h2>Kevser YAZICI - <i>Software Development Engineer in Test</i></h2></div>
+        <div class="menu"><a href="index.html"> HOMEPAGE </a>|<a href="resume.html" target="_blank"> RESUME </a>|<a href="contact.html"target="_blank"> CONTACT</a></div>       
+    </div>
+    <br><br><br><br>
+    <div class="contend">
+        <h1>CONTACT</h1>
+        <div class="contact form">
+        <form action="saveDB.php">
+            <div class="form-row">
+                <div><label for="firstname">Firstname</label></div>
+                <input type="text" name="Firstname" id="">
+            </div>
+            <div class="form-row">
+                <div><label for="lastname">Lastname</label></div>
+                <input type="text" name="lastname" id="">
+            </div>
+            <div class="form-row">
+                <div><label for="email">E-mail</label></div>
+                <input type="email" name="email" id="">
+            </div>
+            <div class="form-row">
+                <div><label for="phone">Tel</label></div>
+                <input type="tel" name="phone" id="">
+            </div>
+            <div class="form-row">
+                <div><label for="message">Message</label></div>
+                <textarea name="message" id="" cols="30" rows="10"></textarea>
+            </div>
+            <div><button type="submit">SEND</button></div>
+        </form>
+    </div>
+        <!--HTML dosyalarına yorum eklemek için Shift+Alt+A yapıyoruz-->
+        <!-- "for" ve "name" aynı olmalı.Girilen verilerin, 
+        backend de kayıt alınabilmesi için 2 isim birbirinin aynısı olmalı -->
+        
+    </div>
+
+    <br><br><br><br>    
+    <div class="footer"> 
+        <div class="phone"><a href="tel:+905556688">Telefon</a></div>
+        <div class="mail"><a href="mailto:kevser@kevser.com">E-mail</a></div>
+        <div class="social">
+        <a href="https://www.twitter.com" target="_blank">X </a>|
+        <a href="https://www.linkedin.com/in/kevseryazici/" target="_blank"> Linkedin </a>|
+        <a href="https://www.instagram.com/" target="_blank"> Instagram</a></div>
+
+        <div class="copyright"> Tüm Hakları Saklıdır © 2023</div>    
+    </div>
+    <!--Auto Save kapalı ise CTRL+S tuşlarıyla kaydedilir.-->
+    
+</body>
+</html>
